@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { EvaluationResult, PatientCase } from '../types/clinical';
-import { fireCelebrationConfetti } from '../utils/confetti';
+import { fireCelebrationConfetti } from './confetti';
 import { 
   Award, 
   CheckCircle2, 
