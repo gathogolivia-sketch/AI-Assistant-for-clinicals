@@ -3,7 +3,7 @@ import {
   Department, 
   Difficulty, 
   PatientCase, 
-  ChatMessage, 
+  ChatMessage,
   StudentDecisions, 
   EvaluationResult 
 } from './types/clinical';
