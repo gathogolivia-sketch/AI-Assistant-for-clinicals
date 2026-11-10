@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { PatientCase, ChatMessage } from '../types/clinical';
-import { speechService } from '../utils/speech';
+import { speechService } from './speech';
 import { 
   Send, 
   Volume2, 
