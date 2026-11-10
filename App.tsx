@@ -8,16 +8,16 @@ import {
   EvaluationResult 
 } from './types/clinical';
 import { INITIAL_PATIENT_CASES } from './data/patientCases';
-import { HospitalHeader } from './components/HospitalHeader';
-import { PatientBanner } from './components/PatientBanner';
-import { PatientChat } from './components/PatientChat';
-import { LabsAndRecords } from './components/LabsAndRecords';
-import { MedicineWorkspace } from './components/workspaces/MedicineWorkspace';
-import { PharmacyWorkspace } from './components/workspaces/PharmacyWorkspace';
-import { NursingWorkspace } from './components/workspaces/NursingWorkspace';
-import { DebriefModal } from './components/DebriefModal';
-import { CaseSelectorModal } from './components/CaseSelectorModal';
-import { SafetyDisclaimerModal } from './components/SafetyDisclaimerModal';
+import { HospitalHeader } from './data/HospitalHeader';
+import { PatientBanner } from './data/PatientBanner';
+import { PatientChat } from './data/PatientChat';
+import { LabsAndRecords } from './data/LabsAndRecords';
+import { MedicineWorkspace } from './data/workspaces/MedicineWorkspace';
+import { PharmacyWorkspace } from './data/workspaces/PharmacyWorkspace';
+import { NursingWorkspace } from './data/workspaces/NursingWorkspace';
+import { DebriefModal } from './data/DebriefModal';
+import { CaseSelectorModal } from './data/CaseSelectorModal';
+import { SafetyDisclaimerModal } from './data/SafetyDisclaimerModal';
 import { speechService } from './utils/speech';
 import { 
   AlertTriangle, 
