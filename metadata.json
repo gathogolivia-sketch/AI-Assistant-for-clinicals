@@ -1,0 +1,6 @@
+{
+  "name": "AI Clinical Simulation Assistant",
+  "description": "Virtual hospital simulation environment for Medicine, Pharmacy, and Nursing university students to assess symptoms, review medications, interpret vitals, and receive educational feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

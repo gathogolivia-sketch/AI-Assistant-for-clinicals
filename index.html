@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Clinical Simulation Assistant</title>
+    <meta name="description" content="Virtual hospital simulation environment for Medicine, Pharmacy, and Nursing university students to assess symptoms, review medications, interpret vitals, and receive educational feedback." />
+    <meta property="og:title" content="AI Clinical Simulation Assistant" />
+    <meta property="og:description" content="Virtual hospital simulation environment for Medicine, Pharmacy, and Nursing university students to assess symptoms, review medications, interpret vitals, and receive educational feedback." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      // Ignore Vite HMR WebSocket connection errors in sandboxed AI Studio preview iframes
+      window.addEventListener('unhandledrejection', function (event) {
+        var reason = event && event.reason;
+        var msg = reason && (reason.message || String(reason));
+        if (msg && (
+          msg.indexOf('WebSocket') !== -1 ||
+          msg.indexOf('closed without opened') !== -1 ||
+          msg.indexOf('vite') !== -1
+        )) {
+          event.preventDefault();
+        }
+      });
+      window.addEventListener('error', function (event) {
+        var msg = event && (event.message || '');
+        var file = event && (event.filename || '');
+        if (
+          msg.indexOf('WebSocket') !== -1 ||
+          file.indexOf('@vite/client') !== -1
+        ) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
