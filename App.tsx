@@ -12,13 +12,13 @@ import { HospitalHeader } from './HospitalHeader';
 import { PatientBanner } from './PatientBanner';
 import { PatientChat } from './PatientChat';
 import { LabsAndRecords } from './LabsAndRecords';
-import { MedicineWorkspace } from './workspaces/MedicineWorkspace';
-import { PharmacyWorkspace } from './workspaces/PharmacyWorkspace';
-import { NursingWorkspace } from './workspaces/NursingWorkspace';
+import { MedicineWorkspace } from './MedicineWorkspace';
+import { PharmacyWorkspace } from './PharmacyWorkspace';
+import { NursingWorkspace } from '.NursingWorkspace';
 import { DebriefModal } from './DebriefModal';
 import { CaseSelectorModal } from './CaseSelectorModal';
 import { SafetyDisclaimerModal } from './SafetyDisclaimerModal';
-import { speechService } from './utils/speech';
+import { speechService } from './speech';
 import { 
   AlertTriangle, 
   RotateCcw, 
