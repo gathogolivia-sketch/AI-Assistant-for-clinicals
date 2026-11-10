@@ -14,7 +14,7 @@ import { PatientChat } from './PatientChat';
 import { LabsAndRecords } from './LabsAndRecords';
 import { MedicineWorkspace } from './MedicineWorkspace';
 import { PharmacyWorkspace } from './PharmacyWorkspace';
-import { NursingWorkspace } from '.NursingWorkspace';
+import { NursingWorkspace } from './NursingWorkspace';
 import { DebriefModal } from './DebriefModal';
 import { CaseSelectorModal } from './CaseSelectorModal';
 import { SafetyDisclaimerModal } from './SafetyDisclaimerModal';
